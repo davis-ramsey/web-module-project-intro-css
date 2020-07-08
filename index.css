@@ -1,0 +1,138 @@
+body {
+	width: 1000px;
+}
+
+* {
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+}
+
+header nav > *,
+footer nav > * {
+	color: white;
+	display: inline-block;
+	width: 13%;
+	padding: 1%;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: 13%;
+}
+
+.first-link {
+	transition: background-color 1s ease;
+	background-color: #ff764e;
+}
+
+.first-link:hover {
+	background-color: orchid;
+}
+
+.second-link {
+	background-color: #5ed3eb;
+	transition: background-color 1s ease;
+}
+
+.second-link:hover {
+	background-color: crimson;
+}
+
+.third-link {
+	transition: background-color 1s ease;
+	background-color: #ffcd69;
+}
+
+.third-link:hover {
+	background-color: turquoise;
+}
+
+header img {
+	border-radius: 50%;
+	width: 20%;
+	margin: 4%;
+}
+
+header div {
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+}
+header h1 {
+	display: inline-block;
+	padding-top: 5%;
+	font-family: 'Chelsea Market', cursive;
+	text-align: center;
+	font-size: 300%;
+	width: 90%;
+	margin-bottom: 0;
+}
+
+header .first-header {
+	display: inline-block;
+	font-size: 80%;
+	width: 80%;
+	text-align: center;
+	margin-left: 5%;
+}
+
+header .second-header {
+	display: inline-block;
+	font-size: 80%;
+	width: 50%;
+	text-align: center;
+	margin-left: 20%;
+}
+
+.first {
+	color: white;
+	display: inline-block;
+	background-color: #ddb9a3;
+	text-align: center;
+	font-size: 90%;
+	width: 90%;
+	margin-left: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.second,
+.third {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.second p,
+.third p {
+	width: 23%;
+	margin-left: 38%;
+	padding-bottom: 4%;
+	font-size: 70%;
+}
+
+.second img,
+.third img {
+	padding-top: 2%;
+	width: 10%;
+}
+
+footer {
+	background-color: #f9e7dc;
+	width: 100%;
+	height: 30%;
+}
+
+footer div {
+	background-image: url(/assets/footer_img.jpg);
+	height: 220px;
+	background-size: cover;
+}
+
+footer nav {
+	padding: 3% 0;
+}
