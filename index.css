@@ -1,7 +1,8 @@
-/* netlify link: https://nifty-leakey-12d52e.netlify.app/ */
+/* netlify link: https://gifted-snyder-c071c0.netlify.app */
 
 body {
 	width: 1000px;
+	margin: 0 auto;
 }
 
 * {
@@ -131,8 +132,9 @@ footer {
 
 footer div {
 	background-image: url(/assets/footer_img.jpg);
-	height: 220px;
+	height: 20vh;
 	background-size: cover;
+	background-position: 0 15%;
 }
 
 footer nav {
